@@ -75,7 +75,7 @@ func (d *Disk) FileNames(box *parser.Box) ([]string, error) {
 	err := godirwalk.Walk(path, &godirwalk.Options{
 		FollowSymbolicLinks: true,
 		Callback: func(path string, de *godirwalk.Dirent) error {
-			if !de.IsRegular() {
+			if !de.IsRegular() && !de.IsSymlink() {
 				return nil
 			}
 			names = append(names, path)
@@ -343,7 +343,17 @@ func (d *Disk) Close() error {
 
 func makeKey(box *parser.Box, path string) string {
 	w := md5.New()
-	fmt.Fprint(w, path)
+	filepath := resolveFileSymlink(path)
+	fmt.Fprint(w, filepath)
 	h := hex.EncodeToString(w.Sum(nil))
 	return h
+}
+
+func resolveFileSymlink(path string) string {
+	if fi, err := os.Lstat(path); err == nil && fi.Mode()&os.ModeSymlink != 0 {
+		if linkPath, err := os.Readlink(path); err == nil {
+			return linkPath
+		}
+	}
+	return path
 }
