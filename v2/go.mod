@@ -1,4 +1,4 @@
-module github.com/gobuffalo/packr/v2
+module github.com/bitgaming/packr/v2
 
 require (
 	github.com/gobuffalo/envy v1.7.0
