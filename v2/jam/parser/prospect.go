@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gobuffalo/packr/v2/file/resolver"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/bitgaming/packr/v2/file/resolver"
+	"github.com/bitgaming/packr/v2/plog"
 )
 
 var DefaultIgnoredFolders = []string{".", "_", "vendor", "node_modules", "_fixtures", "testdata"}
