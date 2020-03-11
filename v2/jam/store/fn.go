@@ -3,7 +3,7 @@ package store
 import (
 	"errors"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
+	"github.com/bitgaming/packr/v2/jam/parser"
 )
 
 var _ Store = &FnStore{}

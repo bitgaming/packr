@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/gobuffalo/genny"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/bitgaming/packr/v2/plog"
 )
 
 func goCmd(name string, args ...string) error {
