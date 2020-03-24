@@ -1,6 +1,5 @@
-module foo
+module github.com/bitgaming/packr/v2/jam/store/_fixtures/disk-pack
 
-require (
-	github.com/bitgaming/packr/v2 v2.0.0-rc.2 // indirect
-	golang.org/x/tools v0.0.0-20181116193547-e77c06808af6 // indirect
-)
+go 1.14
+
+require github.com/bitgaming/packr/v2 v2.2.1
