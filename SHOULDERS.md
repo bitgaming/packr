@@ -1,6 +1,6 @@
-# github.com/gobuffalo/packr Stands on the Shoulders of Giants
+# github.com/bitgaming/packr Stands on the Shoulders of Giants
 
-github.com/gobuffalo/packr does not try to reinvent the wheel! Instead, it uses the already great wheels developed by the Go community and puts them all together in the best way possible. Without these giants, this project would not be possible. Please make sure to check them out and thank them for all of their hard work.
+github.com/bitgaming/packr does not try to reinvent the wheel! Instead, it uses the already great wheels developed by the Go community and puts them all together in the best way possible. Without these giants, this project would not be possible. Please make sure to check them out and thank them for all of their hard work.
 
 Thank you to the following **GIANTS**:
 
@@ -9,7 +9,7 @@ Thank you to the following **GIANTS**:
 
 * [github.com/gobuffalo/packd](https://godoc.org/github.com/gobuffalo/packd)
 
-* [github.com/gobuffalo/packr/v2](https://godoc.org/github.com/gobuffalo/packr/v2)
+* [github.com/bitgaming/packr/v2](https://godoc.org/github.com/bitgaming/packr/v2)
 
 * [github.com/inconshreveable/mousetrap](https://godoc.org/github.com/inconshreveable/mousetrap)
 

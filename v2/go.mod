@@ -1,5 +1,7 @@
 module github.com/bitgaming/packr/v2
 
+go 1.14
+
 require (
 	github.com/gobuffalo/envy v1.7.0
 	github.com/gobuffalo/genny v0.1.0
