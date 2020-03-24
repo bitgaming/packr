@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/jam/store"
+	"github.com/bitgaming/packr/v2/jam/parser"
+	"github.com/bitgaming/packr/v2/jam/store"
 )
 
 // Clean up an *-packr.go files

@@ -1,6 +1,6 @@
 # packr (v1)
 
-[![GoDoc](https://godoc.org/github.com/gobuffalo/packr?status.svg)](https://godoc.org/github.com/gobuffalo/packr)
+[![GoDoc](https://godoc.org/github.com/bitgaming/packr?status.svg)](https://godoc.org/github.com/bitgaming/packr)
 
 ## Packr has been updated to `v2`! Please read the `./v2/README.md` file for more details.
 
@@ -17,13 +17,13 @@ To get an idea of the what and why of packr, please enjoy this short video: [htt
 To install Packr utility
 
 ```text
-$ go get -u github.com/gobuffalo/packr/packr
+$ go get -u github.com/bitgaming/packr/packr
 ```
 
 To get the dependency
 
 ```text
-$ go get -u github.com/gobuffalo/packr
+$ go get -u github.com/bitgaming/packr
 ```
 
 ## Usage
@@ -67,7 +67,7 @@ package main
 import (
   "fmt"
 
-  "github.com/gobuffalo/packr"
+  "github.com/bitgaming/packr"
 )
 
 func main() {
@@ -108,7 +108,7 @@ package main
 import (
   "net/http"
 
-  "github.com/gobuffalo/packr"
+  "github.com/bitgaming/packr"
 )
 
 func main() {
