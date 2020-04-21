@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bitgaming/packr/v2/file/resolver/encoding/hex"
-	"github.com/bitgaming/packr/v2/plog"
+	"github.com/gobuffalo/packr/v2/file/resolver/encoding/hex"
+	"github.com/gobuffalo/packr/v2/plog"
 
-	"github.com/bitgaming/packr/v2/file"
+	"github.com/gobuffalo/packr/v2/file"
 )
 
 var _ Resolver = &HexGzip{}

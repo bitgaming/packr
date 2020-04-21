@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bitgaming/packr/v2/jam/parser"
+	"github.com/gobuffalo/packr/v2/jam/parser"
 )
 
 func Clean(root string) error {

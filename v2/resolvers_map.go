@@ -7,7 +7,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/bitgaming/packr/v2/file/resolver"
+	"github.com/gobuffalo/packr/v2/file/resolver"
 )
 
 // resolversMap wraps sync.Map and uses the following types:

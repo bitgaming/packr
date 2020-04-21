@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/gobuffalo/envy"
-	"github.com/bitgaming/packr/v2/plog"
+	"github.com/gobuffalo/packr/v2/plog"
 )
 
 func construct(name string, path string) *Box {

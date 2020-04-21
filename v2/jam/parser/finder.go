@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bitgaming/packr/v2/plog"
+	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/karrick/godirwalk"
 	"github.com/markbates/oncer"
 	"github.com/pkg/errors"

@@ -21,13 +21,13 @@ import (
 	"github.com/gobuffalo/envy"
 	"github.com/gobuffalo/genny"
 	"github.com/gobuffalo/gogen"
-	"github.com/bitgaming/packr/v2/file/resolver/encoding/hex"
-	"github.com/bitgaming/packr/v2/plog"
+	"github.com/gobuffalo/packr/v2/file/resolver/encoding/hex"
+	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/rogpeppe/go-internal/modfile"
 
 	"github.com/pkg/errors"
 
-	"github.com/bitgaming/packr/v2/jam/parser"
+	"github.com/gobuffalo/packr/v2/jam/parser"
 	"github.com/karrick/godirwalk"
 	"golang.org/x/sync/errgroup"
 )
