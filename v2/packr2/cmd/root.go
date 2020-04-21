@@ -6,8 +6,8 @@ import (
 
 	"github.com/gobuffalo/genny"
 	"github.com/gobuffalo/logger"
-	"github.com/bitgaming/packr/v2/jam"
-	"github.com/bitgaming/packr/v2/plog"
+	"github.com/gobuffalo/packr/v2/jam"
+	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/spf13/cobra"
 )
 

@@ -3,7 +3,7 @@ package import_pkg
 import (
 	"testing"
 
-	"github.com/bitgaming/packr/v2"
+	"github.com/gobuffalo/packr/v2"
 	"github.com/stretchr/testify/require"
 )
 
